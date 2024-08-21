@@ -1,0 +1,108 @@
+body {
+     background-image:url(Design\ sem\ nome\ \(1\).png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 100vh;
+     margin: 0;
+
+     
+     .container {
+        margin: 20px;
+        margin-top: -550px;
+        margin-left:150px ;
+       
+    }  
+    button[type="submit"] {
+       background-color: red; /* Cor de fundo */
+       color: white; /* Cor do texto */
+       padding: 18px 32px; /* Espaçamento interno */
+       text-align: center; /* Alinhamento do texto */
+       text-decoration: none; /* Remover sublinhado */
+       display: inline-block; /* Exibir como bloco em linha */
+       font-size: 20px; /* Tamanho da fonte */
+       margin: 4px 2px; /* Margens */
+       cursor: pointer; /* Alterar o cursor do mouse */
+       border: none; /* Remover borda */
+       border-radius: 4px; /* Borda arredondada */
+     }
+    
+     input[type="text"] {
+       width: 400px; /* Largura da caixa */
+       padding: 17px; /* Espaçamento interno */
+       border: 1px solid #ccc; /* Borda */
+       font-size: 20px; /* Tamanho da fonte */
+       color: white;
+       border-radius: 5px; /* Borda arredondada */
+       margin-top: 500px;
+       margin-left: 35%;
+
+     }
+input[type="text"] {
+ background-color: rgba(40, 40, 40, 0.5); /* Cinza claro com 50% de opacidade */
+ /* Outras propriedades de estilo, como padding, border, etc. */
+}
+
+#btnidioma {
+    background-color: rgba(40, 40, 40, 0.5);
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:5px
+  }
+  #btnidioma{
+   
+        position: fixed;
+        top: 20px;
+        right:290px;
+      }
+      #btnEntrar {
+        background-color: red; /* Define a cor de fundo como vermelho */
+        color: white; /* Define a cor do texto como branco para melhor contraste */
+        padding: 5px 15px; /* Adiciona espaço interno ao botão */
+        text-align: center; /* Centraliza o texto */
+        text-decoration: none; /* Remove a decoração do texto */
+        display: inline-block; /* Torna o botão um bloco de linha */
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer; /* Muda o cursor para indicar que é clicável */
+        border-radius: 5px; /* Arredonda as bordas */
+        position: fixed;
+        top: 23px;
+        right:200px;
+        
+      }
+      #titulo {
+        font-size: 40px;
+        margin-left: -100px;
+        color: white;
+        font-family: net;
+        margin-top: 250px;
+        text-align: center;
+       
+}
+
+
+    #informacao0{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-left: -100px;
+        margin-top: 100;
+        text-align: center;
+}
+    #informacao1{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-left: -100px;
+        text-align: center;
+}
+}
